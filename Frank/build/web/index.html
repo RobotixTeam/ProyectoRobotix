@@ -3,7 +3,6 @@
 <html>
 <head>
     <title>UWU</title>
-    <link rel="stylesheet" href="Styleindex.css">
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
@@ -59,9 +58,8 @@
 </head>
 <body>
     <header>
-        <h1>Sistema de Reportes de Computadoras</h1>
+        <h1>UWU</h1>
     </header>
-    
     <nav>
         <ul>
             <li><a href="altaM.html">Altas de Maestros</a></li>
@@ -71,39 +69,7 @@
         </ul>
     </nav>
     <main>
-<section class="parallax_section1">
-  <h1 id="text" class="animatedText" style="font-size: 50px;"></h1>
-  <p id="subtext" class="subText" style="font-size: 20px;"></p>
-</section>
-
-<script>
-  var textElement = document.getElementById("text");
-  var subtextElement = document.getElementById("subtext");
-  var text = "Bienvenidos al Sistema de Reportes de Computadoras";
-  var subtext = 0;
-  var index = 0;
-  var delay = 100; // Ajusta la velocidad de escritura aquí (en milisegundos)
-
-  function typeText() {
-    if (index < text.length) {
-      textElement.innerHTML += text.charAt(index);
-      index++;
-      setTimeout(typeText, delay);
-    } else {
-      subtextElement.innerHTML = subtext;
-      // Una vez finalizada la animación de escritura, desplázate hacia la sección de los botones
-      var buttonsSection = document.querySelector(".containerPrincipalI");
-      buttonsSection.scrollIntoView({ behavior: "smooth" });
-    }
-  }
-
-  // Inicia la animación cuando la página se haya cargado completamente
-  window.addEventListener("load", function() {
-    typeText();
-  });
-</script>
-
-    
+        <h2>¡Ya nada más métanle CSS, huevones!</h2>
     </main>
 </body>
 </html>

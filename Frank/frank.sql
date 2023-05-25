@@ -8,9 +8,6 @@ create table administrador (
     nombre varchar(20),
     puesto_escuela varchar(20)
 );
-insert into administrador (clave, contraseña, nombre, puesto_escuela) values
-("1111", "administrador","iliana","admin"),
-("2222", "administrador","german","admin");
 
 create table alumno (
     numero_boleta varchar(10) primary key,
@@ -18,11 +15,6 @@ create table alumno (
     grupo varchar(20),
     especialidad varchar(20)
 );
-insert into alumno (numero_boleta, nombre, grupo, especialidad) values
-("2022090433","cons","4IM9","PROGRAMACION"),
-("2022090445","levy","4IM9","PROGRAMACION"),
-("2022090539","frank","4IM9","PROGRAMACION"),
-("2022090433","quirino","4IM9","PROGRAMACION");
 
 create table maestro (
     RFC varchar(10) primary key,
@@ -30,10 +22,6 @@ create table maestro (
     materia_impartida varchar(20),
     correo_electronico varchar(20)
 );
-insert into maestro (RFC, nombre, materia_impartida, correo_electronico) values
-("1111", "german","psw","maestro@gmail.com"),
-("1111", "torrijos","psw","maestro2@gmail.com");
-
 create table computadora (
     id_computadora varchar(100) primary key,
     tipo_reporte varchar(100),
